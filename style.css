@@ -10,6 +10,10 @@ body {
 	font-family: arial;
 }
 a {
-	color: teal;
+	color: black;
 	text-align: center;
+	background-color: teal;
+	border-radius: 20px;
+	padding: 20px;
+	font-family: arial;
 }
