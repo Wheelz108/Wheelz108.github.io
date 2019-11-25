@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'p5hattyregular';
-    src: url('Fonts/p5hatty-webfont.woff2') format('woff2'),
-         url('Fonts/p5hatty-webfont.woff') format('woff');
+    src: url('../Fonts/p5hatty-webfont.woff2') format('woff2'),
+         url('../Fonts/p5hatty-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

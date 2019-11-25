@@ -1,11 +1,64 @@
 body {
-	background-color: red;
+	background-image: url("../Images/Calling Card Background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 #div1 {
-	background-color: black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 	text-align: center;
 	color: white;
 	border-radius: 20px;
 	padding: 20px;
+	margin: 20px;
 	font-family: 'earwig_factoryregular';
+	font-size: 2em;
+}
+a {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'earwig_factoryregular';
+	text-decoration: none;
+}
+#div2 {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'p5hattyregular';
+	font-size: 20px;
+}
+#div3 {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'p5hattyregular';
+	font-size: 20px;
+	text-align: center;
+}
+#div4 {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'p5hattyregular';
+	font-size: 20px;
+}
+#div5 {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'p5hattyregular';
+	font-size: 20px;
 }
