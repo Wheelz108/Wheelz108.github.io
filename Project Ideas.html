@@ -62,9 +62,47 @@
 
 			<h1 style="text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; text-align: center; color: white; border-radius: 20px; padding: 20px; margin: 20px; font-family: 'earwig_factoryregular'; font-size: 2em;"> Potential Project Report </h1>
 
-			<p> My project idea is a simple turn-based RPG, much simpler than the one I'm currently working on, I think I'd like it to have a similar battle engine to Pokemon or the older Final Fantasys. I've had experience reverse engineering Pokemon’s battle system so either of those shouldn't be too hard to implement. I've no story concepts at this point, maybe the game will just end up being a battle simulator similar to <a href="https://play.pokemonshowdown.com" style="text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; color: white; font-family: 'p5hattyregular'; padding: 0px; border: 0px; margin: 0px;">Pokemon Showdown</a>. I have no idea what it'll turn out to be at this point. It could honestly turn out to be anything.</p>
+			<p> My project idea is a simple tool to assist with competitive Pokemon battling. It will be used for the quick generation of competition ready Pokemon, they can then be imported into the existing Pokemon battle simulator Pokemon Showdown or imported into existing game save files using another program called PKHex. PKHex is an existing tool that allows for the modification of Pokemon game save files, from Red and Blue on the Gameboy to the latest game (Sword and Shield on the Nintendo Switch as of the time of writing). You can modify the items in your bag, your money, the Pokemon in your possession etc. PKHex will also ensure that the Pokemon you are generating are legal, in other words that they would be able to be legitimately encountered in game. If the Pokemon you generate are illegal in any way, such as having illegal moves, abilities or stats Nintendo will detect the generated Pokemon as being illegitimately obtained (i.e. hacked in) and will subsequently ban you from the Pokemon online servers. </p>
 
-			<p>  </p>
+			<p> My tool would greatly benefit the competitive Pokemon community as it takes a very long time to breed for a competition ready Pokemon in the game alone. Just getting the IVs you need can take ages, let alone EVs, natures, moves and battle items. To be fair though, Game Freak have made huge strides in lowering the barrier for entry into competition, they’ve implemented mechanics to make the desired natures, EVs, and IVs easier to obtain with mint items, Super Training and Hyper Training respectively. But breeding for moves and getting the held items necessary are still needlessly tedious so my tool will help immensely. </p>
+
+			<p> I could realistically develop my tool in three languages, Python, C# or Java. I’ve been using Java recently so I may use it. C# and Java are very similar in syntax so I could use C# as well. But I haven’t used C# in ages, so I think Java is my language of choice for this project, especially because I’ve been using Java as a part of Programming 1. </p>
+
+			<p> There are downsides to using Java however, one major downside is the strain on the computer. Java doesn’t compile directly into machine code for execution. First it compiles into bytecode which the Java Runtime Environment interprets and converts to machine code before execution. For smaller programs such as my tool, this shouldn’t be an issue, but for larger projects this can be a major downside and as such most large-scale projects tend to stay far away from Java. There are a few notable exceptions though, Minecraft being one example I can think of from the top of my head. </p>
+
+			<p> My project will generate Pokemon as plain text files in the format described below: </p>
+
+			<ul style="list-style-type: none; font-family: monospace; font-size: 20px;">
+
+				<li> Species (Gender) @ Item </li>
+
+				<li> IVs (If specified): # Stat / # Stat / # Stat </li>
+
+				<li> EVs: # Stat / # Stat / # Stat / # Stat </li>
+
+				<li> Ability: Ability Name </li>
+
+				<li> Shiny: (Yes/No) </li>
+
+				<li> (Nature Name) Nature </li>
+
+				<li> - Move 1 </li>
+
+				<li> - Move 2 </li>
+
+				<li> - Move 3 </li>
+
+				<li> - Move 4 </li>
+			
+			</ul>
+
+			<p> This format is officially supported by PKHex and Pokemon Showdown and is widely used in the community to quickly and easily write out competitive sets and modify them just as easily. People will often post sets on forums then others will offer criticism and take these sets and use them in their own teams. Advantages of this format include readability, easy evaluation tweaking and modification and widespread adoption. </p>
+
+			<p> My tool will allow users to choose from any of the 890 existing Pokemon and customise everything from their stat distributions to their moves and abilities to their held items and nickname. Then the program will output these Pokemon in the format showcased above which can then be imported into save files with PKHex or used online immediately in Pokemon Showdown. </p>
+
+			<p> To realise this project we’ll need an IDE (Integrated Development Environment), my preferred development environment is Visual Studio Code a free, fully featured IDE with community-maintained support for every major language out there through modular plugins. For the development of this tool we’ll be using Java as stated above. The reason for this choice being; this is a small project so Java’s downsides of not having a machine code compiler won’t be as important and two; it’s the language I’ve been using most recently. It should be noted that for users to be able to import teams into official games, they will need either a 3DS (for Pokemon Diamond, Pearl and Platinum through to Ultra Sun and Ultra Moon) or a Nintendo Switch (for Sword and Shield) with custom firmware, the guides for installing Luma3DS or Atmosphere for Switch will be linked <a href="https://3ds.hacks.guide" style="text-decoration: none; font-family: p5hattyregular; margin: 0px; padding: 0px;">here</a> and <a href="https://switch.hacks.guide" style="text-decoration: none; font-family: p5hattyregular; margin: 0px; padding: 0px;">here</a>. </p>
+
+			<p> If the project successfully comes to fruition, I will be directly impacted considering I play Pokemon competitively, but if, and this is a big if; if I choose to release this tool to the community I feel that it’ll have a huge impact. It’ll lower the barrier of entry for new players, and help veteran players speed up the process of theory-crafting, testing and experimenting with different teams, setups and strategies. Using the Pokemon Showdown battle simulator users will be able to take theoretical teams and put them into the ladder system for testing, then they can either go back and change the team to synergise better or, if their satisfied, import the team into the official games using PKHex and Luma3DS custom firmware, and then use then on Nintendo’s official ladder ranking or just use them in battles with friends. This will make the process of creating competition ready Pokemon much easier than before, rather than having to set up complex breeding chains and sink hundreds of hours into the game you can just input a few things, generate a text file put it in PKHex then put it into your game.</p>
 
 		</div>
 		

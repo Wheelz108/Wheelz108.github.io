@@ -4,6 +4,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 #div1 {
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -43,6 +45,7 @@ a {
 	margin: 20px;
 	font-family: 'p5hattyregular';
 	font-size: 24px;
+	text-align: left;
 }
 #backgroundImage {
 	position: relative;
@@ -60,7 +63,7 @@ a {
 	padding-right: 150px;
 	top: 90px;
 	bottom: 110px;
-	right: 40px;
+	right: 50px;
 	left: 50px;
 }
 #textBox2 {
@@ -102,12 +105,26 @@ a {
 	padding: 20px;
 	margin: 20px;
 	font-family: 'p5hattyregular';
-	font-size: 20px;
+	font-size: 23px;
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 90px;
-	bottom: 110px;
-	right: 100px;
-	left: 60px;
+	top: 95px;
+	right: 50px;
+	left: 30px;
+}
+#textBox5 {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'p5hattyregular';
+	font-size: 23px;
+	position: absolute;
+	padding-left: 150px;
+	padding-right: 150px;
+	top: 95px;
+	right: 50px;
+	left: 30px;
 }
