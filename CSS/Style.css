@@ -61,10 +61,10 @@ a {
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 90px;
+	top: 170px;
 	bottom: 110px;
-	right: 50px;
-	left: 50px;
+	right: 100px;
+	left: 120px;
 }
 #textBox2 {
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -77,10 +77,10 @@ a {
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 90px;
+	top: 170px;
 	bottom: 50px;
-	right: 80px;
-	left: 50px;
+	right: 100px;
+	left: 120px;
 }
 #textBox3 {
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -93,10 +93,10 @@ a {
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 95px;
+	top: 175px;
 	bottom: 100px;
-	right: 10px;
-	left: 50px;
+	right: 110px;
+	left: 110px;
 }
 #textBox4 {
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -109,9 +109,9 @@ a {
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 95px;
-	right: 50px;
-	left: 30px;
+	top: 175px;
+	right: 110px;
+	left: 110px;
 }
 #textBox5 {
 	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -124,7 +124,7 @@ a {
 	position: absolute;
 	padding-left: 150px;
 	padding-right: 150px;
-	top: 95px;
-	right: 50px;
-	left: 30px;
+	top: 175px;
+	right: 110px;
+	left: 110px;
 }
